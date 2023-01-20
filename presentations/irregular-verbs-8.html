@@ -17,6 +17,12 @@
             text-align: center;
 
         }
+        .container {
+          display: flex;
+        }
+        .container.space-around {
+          justify-content: space-around;
+        }
 	</style>
 	<body>
 
@@ -53,15 +59,28 @@
 				</section>
 				<section>
 					<h3 class="verb">Estar de pie</h3>
-					<h3 class="fragment verb">Stand Stood Stood</h3>
+					<div class="fragment container space-around">
+                        <h3>Stand</h3>
+                        <h3>Stood</h3>
+                        <h3>Stood</h3>
+                    </div>
 				</section>
 				<section>
 					<h3 class="verb">Costar</h3>
-					<h3 class="fragment verb">Cost Cost Cost</h3>
+					<div class="fragment container space-around">
+                        <h3>Cost</h3>
+                        <h3>Cost</h3>
+                        <h3>Cost</h3>
+                    </div>
+				</section>
 				</section>
 				<section>
 					<h3 class="verb">Soñar</h3>
-					<h3 class="fragment verb">Dream Dreamed Dreamt</h3>
+					<div class="fragment container space-around">
+                        <h3>Dream</h3>
+                        <h3>Dreamed</h3>
+                        <h3>Dreamt</h3>
+                    </div>
 				</section>
 
 
@@ -76,7 +95,6 @@
 					    <p class="instructions">Do (hacer/crear)</p>
 					    <p class="instructions">We....</p>
                     </div>
-					<p class="instructions">Conjugate the tenses</p>
                     <div style="overflow:hidden;">
                         <div class="fragment" data-fragment-index="1" style="float:left; width:45%;">
                             <p class="instructions">Present Continuous</p>
